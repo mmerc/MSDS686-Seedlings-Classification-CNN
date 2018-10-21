@@ -5,11 +5,11 @@ This paper decribes the process for developing and comparing convolutional neura
 
 The process for this project includes several components. The plant seedling training and testing data were obtained from the Kaggle website and loaded in Colab for processing. The Kaggle images are "labeled" by placement of each image in a folder with the designated label. The images were retrieved from these folders, placed into an array with the name of the folder set as the "label." Once the images are obtained, the training data is separated into images and labels. The training data is then processed as input for CNN in Keras.
 
-Six CNN models were tested and compared to identify the most accurate model to use for the Kaggle submission.  I included six of the many models I tried, to compare the results of models with a simple architecture (fewer parameters) to those models with complex architectures (larger number of parameters).  Most of the code for this project was modified from NikKonst (2018) which along with the Chollett (2018 )textbook served as a guide for the entire process.  Helpful information was also obtained from classmates posting their experiences on the course discussion board.
+Six CNN models were tested and compared to identify the most accurate model to use for the Kaggle submission.  I included six of the many models I tried, to compare the results of models with a simple architecture (fewer parameters) to those models with complex architectures (larger number of parameters).  Most of the code for this project was modified from NikKonst (2018) along with the Chollett (2018) textbook and served as a guide for the entire process.  Helpful information was also obtained from classmates posting their experiences on the course discussion board.
 
 The project was performed on Colab's tensorflow deep learning software running on Google's Graphic Processing Unit.
 
-The model with the lowest error rate was model_N, designed by NikKonst (2018) which can be found on Kaggle at https://www.kaggle.com/nikkonst/plant-seedlings-with-cnn-and-image-processing.  Although model2 had the second best baseline error rate, it was used for the Kaggle submission due to little overfitting which hopefully would generalize well to new data. The Kaggle submission achieved a score of 0.89.  A chart comparing the models is shown below.
+The model with the lowest error rate was model_N, designed by NikKonst (2018) which can be found on Kaggle at https://www.kaggle.com/nikkonst/plant-seedlings-with-cnn-and-image-processing.  Although model2 had the second best baseline error rate, it was used for the Kaggle submission due to less overfitting, and hopefully would generalize well to new data. The Kaggle submission achieved a score of 0.89.  A chart comparing the models is shown below.
 
 Overall, this project was extremely educational and fun. Going through the entire process of developing and comparing CNN models from start to finish was very beneficial.
 
@@ -21,7 +21,7 @@ Overall, this project was extremely educational and fun. Going through the entir
 | model_A | [32,64,128,128] | 13 | 87 | 259 | 274,444
 | model_B | [80,80,160,160,240] | 13 | 87 | 355 | 784,076
 | model1 | inception1 layers | 17 | 83 | 301 | 7,329,548
-| VGG16 | VGG16 layers | 19 | 81 | ? | 15,242,316
+| VGG16 | VGG16 layers | 17 | 83 | 21,521 | 15,242,316
 
 ### References
 
