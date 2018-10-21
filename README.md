@@ -7,7 +7,7 @@ The process for this project includes several components. The plant seedling tra
 
 Six CNN models were tested and compared to identify the most accurate model to use for the Kaggle submission.  I included six of the many models I tried, to compare the results of models with a simple architecture (fewer parameters) to those models with complex architectures (larger number of parameters).  Most of the code for this project was modified from NikKonst (2018) which along with the Chollett (2018 )textbook served as a guide for the entire process.  Helpful information was also obtained from classmates posting their experiences on the course discussion board.
 
-The project was performed on Colab's tensorflow deep learning software running on Google's Tensor Processing Unit.
+The project was performed on Colab's tensorflow deep learning software running on Google's Graphic Processing Unit.
 
 The model with the lowest error rate was model_N, designed by NikKonst (2018) which can be found on Kaggle at https://www.kaggle.com/nikkonst/plant-seedlings-with-cnn-and-image-processing.  Although model2 had the second best baseline error rate, it was used for the Kaggle submission due to little overfitting which hopefully would generalize well to new data. The Kaggle submission achieved a score of 0.89.  A chart comparing the models is shown below.
 
