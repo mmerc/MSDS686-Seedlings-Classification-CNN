@@ -9,7 +9,7 @@ Six CNN models were tested and compared to identify the most accurate model to u
 
 The project was performed on Colab's tensorflow deep learning software running on Google's Tensor Processing Unit.
 
-Although model2 had the second best baseline error rate, it was used for the Kaggle submission due to little overfitting which hopefully would generalize well to new data. The Kaggle submission achieved a score of 0.89.
+The model with the lowest error rate was model_N, designed by NikKonst (2018) which can be found on Kaggle at https://www.kaggle.com/nikkonst/plant-seedlings-with-cnn-and-image-processing.  Although model2 had the second best baseline error rate, it was used for the Kaggle submission due to little overfitting which hopefully would generalize well to new data. The Kaggle submission achieved a score of 0.89.  A chart comparing the models is shown below.
 
 Overall, this project was extremely educational and fun. Going through the entire process of developing and comparing CNN models from start to finish was very beneficial.
 
