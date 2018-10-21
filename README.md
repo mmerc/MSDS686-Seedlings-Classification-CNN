@@ -23,7 +23,8 @@ Overall, this project was extremely educational and fun. Going through the entir
 | model1 | inception1 layers | 17 | 83 | 301 | 7,329,548
 | VGG16 | VGG16 layers | 19 | 81 | ? | 15,242,316
 
-References
+###References
+
 Chollet, F. (2018). Deep Learning with Python. Shelter Island, NY. Manning Publications Co.
 
 CoLab Drive FUSE example.ipynb (2018) Retrieved from https://colab.research.google.com/drive/1srw_HFWQ2SMgmWIawucXfusGzrj1_U0q.
