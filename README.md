@@ -14,7 +14,7 @@ Although model2 had the second best baseline error rate, it was used for the Kag
 Overall, this project was extremely educational and fun. Going through the entire process of developing and comparing CNN models from start to finish was very beneficial.
 
 
-The results of the models are shown below.
+
 Model | Conv Layers | % Error | % Valid. Acc. | Seconds | Train. Parameters
 :--- | :--- | :--- | :--- | :--- | :--- | ---:
 model_N |  [64,64, 128,128, 256,256] | 8 | 92 | 26,586 | 3,317,580
