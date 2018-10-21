@@ -11,6 +11,9 @@ The project was performed on Colab's tensorflow deep learning software running o
 
 Although model2 had the second best baseline error rate, it was used for the Kaggle submission due to little overfitting which hopefully would generalize well to new data. The Kaggle submission achieved a score of 0.89.
 
+Overall, this project was extremely educational and fun. Going through the entire process of developing and comparing CNN models from start to finish was very beneficial.
+
+
 The results of the models are shown below.
 Model | Conv Layers | % Error | % Valid. Acc. | Seconds | Train. Parameters
 :--- | :--- | :--- | :--- | :--- | :--- | ---:
