@@ -14,11 +14,11 @@ Although model2 had the second best baseline error rate, it was used for the Kag
 Overall, this project was extremely educational and fun. Going through the entire process of developing and comparing CNN models from start to finish was very beneficial.
 
 
-Model | Conv Layers | % Error | % Valid. Acc. | Seconds | Train. Parameters
-:--- | :--- | :--- | :--- | :--- | :--- | ---:
-model_N |  [64,64, 128,128, 256,256] | 8 | 92 | 26,586 | 3,317,580
-model2 | inception2 layers | 12 | 88 | 330 | 4,823,436
-model_A | [32,64,128,128] | 13 | 87 | 259 | 274,444
-model_B | [80,80,160,160,240] | 13 | 87 | 355 | 784,076
-model1 | inception1 layers | 17 | 83 | 301 | 7,329,548
-VGG16 | VGG16 layers | 19 | 81 | ? | 15,242,316
+| Model | Conv Layers | % Error | % Valid. Acc. | Seconds | Train. Parameters |
+|------ | ----------- | ------- | ------------- | ------- | ----------------- | 
+|model_N |  [64,64, 128,128, 256,256] | 8 | 92 | 26,586 | 3,317,580
+| model2 | inception2 layers | 12 | 88 | 330 | 4,823,436
+| model_A | [32,64,128,128] | 13 | 87 | 259 | 274,444
+| model_B | [80,80,160,160,240] | 13 | 87 | 355 | 784,076
+| model1 | inception1 layers | 17 | 83 | 301 | 7,329,548
+| VGG16 | VGG16 layers | 19 | 81 | ? | 15,242,316
